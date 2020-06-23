@@ -1,0 +1,13 @@
+D:\Proyectos Visual Basic (Visual Sudio IDE)\Ahorcado_Juego\Ahorcado_Juego\bin\Debug\Ahorcado_Juego.exe.config
+D:\Proyectos Visual Basic (Visual Sudio IDE)\Ahorcado_Juego\Ahorcado_Juego\bin\Debug\Ahorcado_Juego.exe
+D:\Proyectos Visual Basic (Visual Sudio IDE)\Ahorcado_Juego\Ahorcado_Juego\bin\Debug\Ahorcado_Juego.pdb
+D:\Proyectos Visual Basic (Visual Sudio IDE)\Ahorcado_Juego\Ahorcado_Juego\bin\Debug\Ahorcado_Juego.xml
+D:\Proyectos Visual Basic (Visual Sudio IDE)\Ahorcado_Juego\Ahorcado_Juego\obj\Debug\Ahorcado_Juego.vbprojAssemblyReference.cache
+D:\Proyectos Visual Basic (Visual Sudio IDE)\Ahorcado_Juego\Ahorcado_Juego\obj\Debug\Ahorcado_Juego.FormInicio.resources
+D:\Proyectos Visual Basic (Visual Sudio IDE)\Ahorcado_Juego\Ahorcado_Juego\obj\Debug\Ahorcado_Juego.FormAhorcado.resources
+D:\Proyectos Visual Basic (Visual Sudio IDE)\Ahorcado_Juego\Ahorcado_Juego\obj\Debug\Ahorcado_Juego.Resources.resources
+D:\Proyectos Visual Basic (Visual Sudio IDE)\Ahorcado_Juego\Ahorcado_Juego\obj\Debug\Ahorcado_Juego.vbproj.GenerateResource.cache
+D:\Proyectos Visual Basic (Visual Sudio IDE)\Ahorcado_Juego\Ahorcado_Juego\obj\Debug\Ahorcado_Juego.vbproj.CoreCompileInputs.cache
+D:\Proyectos Visual Basic (Visual Sudio IDE)\Ahorcado_Juego\Ahorcado_Juego\obj\Debug\Ahorcado_Juego.exe
+D:\Proyectos Visual Basic (Visual Sudio IDE)\Ahorcado_Juego\Ahorcado_Juego\obj\Debug\Ahorcado_Juego.xml
+D:\Proyectos Visual Basic (Visual Sudio IDE)\Ahorcado_Juego\Ahorcado_Juego\obj\Debug\Ahorcado_Juego.pdb
