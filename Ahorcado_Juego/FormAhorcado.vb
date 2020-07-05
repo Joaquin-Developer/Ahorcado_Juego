@@ -10,9 +10,7 @@
         lblPalabra.Text = ""
         laPalabra = laPalabra.ToUpper ' convierto la cadena a mayusculas
 
-        If modoTexto Then
-
-        Else
+        If modoTexto = False Then
             lblTextoLetra.Visible = False
             txtLetra.Visible = False
             btnJugada.Visible = False
