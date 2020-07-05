@@ -35,7 +35,7 @@ Partial Class FormAhorcado
         Me.lbl5 = New System.Windows.Forms.Label()
         Me.btnSalir = New System.Windows.Forms.Button()
         Me.txtLetra = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
+        Me.lblTextoLetra = New System.Windows.Forms.Label()
         Me.btnJugada = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -166,14 +166,14 @@ Partial Class FormAhorcado
         Me.txtLetra.Size = New System.Drawing.Size(35, 20)
         Me.txtLetra.TabIndex = 13
         '
-        'Label4
+        'lblTextoLetra
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(295, 467)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(45, 13)
-        Me.Label4.TabIndex = 14
-        Me.Label4.Text = "LETRA:"
+        Me.lblTextoLetra.AutoSize = True
+        Me.lblTextoLetra.Location = New System.Drawing.Point(295, 467)
+        Me.lblTextoLetra.Name = "lblTextoLetra"
+        Me.lblTextoLetra.Size = New System.Drawing.Size(45, 13)
+        Me.lblTextoLetra.TabIndex = 14
+        Me.lblTextoLetra.Text = "LETRA:"
         '
         'btnJugada
         '
@@ -190,7 +190,7 @@ Partial Class FormAhorcado
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(450, 509)
         Me.Controls.Add(Me.btnJugada)
-        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.lblTextoLetra)
         Me.Controls.Add(Me.txtLetra)
         Me.Controls.Add(Me.btnSalir)
         Me.Controls.Add(Me.lbl5)
@@ -224,6 +224,6 @@ Partial Class FormAhorcado
     Friend WithEvents lbl5 As Label
     Friend WithEvents btnSalir As Button
     Friend WithEvents txtLetra As TextBox
-    Friend WithEvents Label4 As Label
+    Friend WithEvents lblTextoLetra As Label
     Friend WithEvents btnJugada As Button
 End Class
