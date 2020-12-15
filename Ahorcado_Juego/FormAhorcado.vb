@@ -10,7 +10,7 @@
         lblPalabra.Text = ""
         laPalabra = laPalabra.ToUpper ' convierto la cadena a mayusculas
 
-        If modoTexto = False Then
+        If Not modoTexto Then
             lblTextoLetra.Visible = False
             txtLetra.Visible = False
             btnJugada.Visible = False
@@ -28,8 +28,6 @@
     End Sub
 
     Private Function noEsta() As Boolean
-        Dim perdio As Boolean = False
-
         Select Case errores
             Case = 1
                 lbl1.Visible = True
@@ -44,33 +42,27 @@
             Case = 6
                 ' perdio
                 lbl6.Visible = True
-                perdio = True
+                Return True
         End Select
 
-        Return perdio
-
+        Return False
     End Function
 
     Private Sub acierto(ByVal letra As String)
-
         Dim texto As Char() = lblPalabra.Text.ToCharArray
 
         For i As Integer = 0 To texto.Length - 1 Step 1
-
             If laPalabra(i) = letra And texto(i).ToString = "-" Then
                 texto(i) = letra
             End If
-
         Next
 
         Dim texMostrar As String
-
         For i = 0 To texto.Length - 1 Step 1
             texMostrar += texto(i)
         Next
 
         lblPalabra.Text = texMostrar
-
     End Sub
 
     Private Sub FormAhorcado_KeyPress(sender As Object, e As System.Windows.Forms.KeyPressEventArgs) Handles Me.KeyPress
@@ -112,21 +104,17 @@
                     End If
                 End If
             End If
-
         End If
 
     End Sub
 
     Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click
-
         If MsgBox("¿Estas seguro de salir?", vbQuestion + vbYesNo, "Confirmación") = MsgBoxResult.Yes Then
             Application.Exit()
         End If
-
     End Sub
 
     Private Sub btnJugada_Click(sender As Object, e As EventArgs) Handles btnJugada.Click
-
         If lblLetrasUsadas.Text.Contains(txtLetra.Text.ToUpper) Or lblPalabra.Text.Contains(txtLetra.Text.ToUpper) Then
             MsgBox("¡Letra repetida!", vbExclamation, "Mensaje")
             txtLetra.Text = ""
